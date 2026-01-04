@@ -111,3 +111,18 @@ The API returns a structured JSON response containing both global and span‑lev
 - Unittest
 
 ---
+
+## **🏫 Skills Network Theia Lab Environment**
+
+This project was developed and executed entirely within the **Skills Network Theia Lab** environment provided by IBM Skills Network. The EmotionPredict API used in this application is **hosted on the Skills Network platform** and is **only accessible from within the Theia Lab environment**.  
+
+Because of this:
+
+- The API **cannot be accessed from local IDEs** such as VS Code, PyCharm, or Jupyter running on local machine.  
+- The Flask application and all unit tests must be run **inside the Theia Lab workspace** for the API calls to succeed.  
+- Attempting to run the project locally will result in connection errors, since the endpoint is not publicly available.
+
+This setup ensures a controlled, sandboxed environment for learning and experimentation with IBM Watson NLP services.
+
+---
+
